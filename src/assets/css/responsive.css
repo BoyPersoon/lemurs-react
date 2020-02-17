@@ -1,0 +1,107 @@
+/* Small phones */
+@media only screen and (max-width: 480px) {
+    form ul.actions {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form ul.actions > li {
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Medium phones */
+@media only screen and (max-width: 576px) {
+    .navbar-brand.logo > img:last-child {
+        display: none;
+    }
+
+    form ul.actions {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    form ul.actions > li {
+        min-width: 40%;
+    }
+
+    form ul.actions > li input {
+        min-width: 40%;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Large Phones & Small tablets */
+@media only screen and (max-width: 768px) {
+
+    form input {
+        margin-bottom: 15px;
+    }
+
+    .portfolio-info-card {
+        padding: 10px 40px;
+    }
+
+    .portfolio-block.compact-grid .item {
+        padding: 15px;
+    }
+
+    .portfolio-block.compact-grid .item .description hr {
+        display: block;
+        margin: 1em 0;
+    }
+
+    .portfolio-block.compact-grid .item .description {
+        color: #4a4a4a;
+        text-shadow: none;
+        position: relative;
+        background: none;
+    }
+
+}
+
+/* Tablets */
+@media only screen and (max-width: 992px) {
+    .navbar-expand-lg {
+
+    }
+    /*.navbar-collapse .navbar-nav {*/
+    /*    background-color: white !important;*/
+    /*}*/
+
+    /*.navbar-collapse .navbar-nav > li {*/
+    /*    border-bottom: solid 1px #565656;*/
+    /*}*/
+
+    /* {*/
+    /*    color: #565656;*/
+
+    /*    text-transform: uppercase;*/
+    /*    font-weight: 300;*/
+    /*}*/
+
+    .navbar-collapse .navbar-nav .nav-link {
+        border-bottom: solid 1px rgba(255, 255, 255, 0.05);
+        color: #c7c9c9;
+        display: block;
+        font-size: 0.8em;
+        font-weight: 600;
+        height: 3.5em;
+        letter-spacing: 0.125em;
+        line-height: 3.5em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item:last-child > .nav-link {
+        border-bottom: none;
+    }
+
+}
+
+/* Till Desktop */
+@media only screen and (max-width: 1200px) {
+
+}
